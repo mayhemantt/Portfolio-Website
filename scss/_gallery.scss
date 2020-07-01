@@ -1,0 +1,102 @@
+/* Gallery Area css
+============================================================================================ */
+.home_gallery_area{
+	
+}
+.isotope_fillter{
+	margin-bottom: 50px;
+	.gallery_filter{
+		text-align: center;
+		li{
+			display: inline-block;
+			margin-right: 45px;
+			&:last-child{
+				margin-right: 0px;
+			}
+			a{
+				font-size: 12px;
+				font-family: $rob;
+				font-weight: 500;
+				color: $dip;
+				@include transition;
+				text-transform: uppercase;
+			}
+			&:hover, &.active{
+				a{
+					color: $baseColor;
+				}
+			}
+		}
+	}
+}
+.gallery_f_inner{
+	margin-bottom: -45px;
+}
+.h_gallery_item{
+	display: inline-block;
+	margin-bottom: 45px;
+	.g_img_item{
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+		border-radius: 5px;
+		&:before{
+			content: "";
+			width: 100%;
+			height: 100%;
+			left: 0px;
+			top: 0px;
+			background-image: -moz-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+			background-image: -webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+			background-image: -ms-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+			position: absolute;
+			opacity: 0;
+			transition: all 300ms ease;
+		}
+		.light{
+			position: absolute;
+			left: 0px;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 100%;
+			text-align: center;
+			opacity: 0;
+		}
+	}
+	.g_item_text{
+		text-align: center;
+		h4{
+			color: $dip;
+			font-size: 21px;
+			margin-top: 22px;
+			@include transition;
+		}
+		p{
+			margin-bottom: 0px;
+		}
+	}
+	&:hover{
+		.g_img_item{
+			&:before{
+				opacity: .85;
+			}
+			.light{
+				opacity: 1;
+			}
+		}
+		.g_item_text{
+			h4{
+				&:hover{
+					color: $baseColor;
+				}
+			}	
+		}
+	}
+}
+.more_btn{
+	text-align: center;
+	margin-top: 80px;
+}
+/* End Gallery Area css
+============================================================================================ */
+

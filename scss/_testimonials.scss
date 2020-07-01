@@ -1,0 +1,62 @@
+/* Testimonials Area css
+============================================================================================ */
+.testimonials_area{
+	background: #f9f9ff;
+	&.testi_two{
+		background: #fff;
+		.testi_inner{
+			margin-top: -20px;
+			margin-bottom: -20px;
+		}
+		.owl-item {
+			padding: 20px 0px; 
+		}
+		.testi_item{
+			background: #f9f9ff;
+			border-color: #f9f9ff;
+			@include transition;
+			&:hover{
+				background: #fff;
+				border-color: #fff;
+				box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.1);
+			}
+		}
+	}
+}
+.testi_inner{
+	.col-lg-3{
+		vertical-align: middle;
+		align-self: center;
+	}
+}
+.test_title{
+	h2{
+		color: $dip;
+		font-size: 36px;
+		font-family: $rob;
+		font-weight: bold;
+		margin-bottom: 12px;
+	}
+	p{
+		margin-bottom: 0px;
+	}
+}
+.testi_item{
+	border: 1px solid #eeeeee;
+	border-radius: 10px;
+	background: #fff;
+	padding: 40px 28px;
+	p{
+		font-style: italic;
+	}
+	h4{
+		color: $dip;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	a{
+		color: #ffc000;
+	}
+}
+/* End Testimonials Area css
+============================================================================================ */
