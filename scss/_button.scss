@@ -1,0 +1,111 @@
+/* Main Button Area css
+============================================================================================ */
+.main_btn{
+	display: inline-block;
+	background-image: linear-gradient(to right, #766dff 0%, #86e8ff 48%, #766dff 100%);
+    background-size: 200% auto;
+	padding: 0px 40px;
+	color: #fff;
+	font-family: $rob;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 48px;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px;
+	@include transition;
+	&:hover{
+		background-position: right center;
+        color: #fff;
+	}
+}
+.main_btn2{
+	display: inline-block;
+	background: #f9f9ff;
+	padding: 0px 45px;
+	color: $dip;
+	font-family: $rob;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 48px;
+	border-radius: 5px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	border: 1px solid #eeeeee;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: $baseColor;
+		color: #fff;
+		border-color: $baseColor;
+		box-shadow: 0px 10px 20px 0px rgba(250, 51, 63, 0.25);
+	}
+}
+.submit_btn{
+	width: auto;
+	display: inline-block;
+	background: $baseColor;
+	padding: 0px 50px;
+	color: #fff;
+	font-family: $rob;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 50px;
+	border-radius: 5px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	border: 1px solid $baseColor;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: transparent;
+		color: $baseColor;
+	}
+}
+
+.white_bg_btn{
+	display: inline-block;
+	background: #f9f9ff;
+	padding: 0px 35px;
+	color: $dip;
+	font-family: $rob;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 34px;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background-image: -moz-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+		background-image: -webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+		background-image: -ms-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+		color: #fff;
+		border: none;
+	}
+}
+.black_btn{
+	padding: 0px 44px;
+	line-height: 50px;
+	background: $dip;
+	color: $baseColor;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 13px;
+	font-family: $rob;
+	font-weight: 500;
+	@include transition;
+	&:hover{
+		background: $baseColor;
+		color: $dip;
+	}
+}
+/* End Main Button Area css
+============================================================================================ */

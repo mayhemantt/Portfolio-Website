@@ -1,0 +1,99 @@
+.list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration:none;
+    transition: all 0.3s ease-in-out;
+    &:hover, &:focus{
+       text-decoration:none;
+       outline: none;
+    }
+}
+.row.m0{
+    margin: 0px;
+}
+
+body{
+    line-height: 26px;
+    font-size: 16px;
+    font-family: $rob;
+    font-weight: normal;
+    color: $pfont;
+}
+h1, h2, h3, h4, h5, h6{ 
+    font-family: $hee; 
+    font-weight: bold;
+}
+
+button:focus{
+    outline: none;
+	box-shadow: none;
+}
+.p0{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.p_120{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.p_100{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.pad_top{
+	padding-top: 120px;
+}
+.pad_bt{
+	padding-bottom: 120px;
+}
+.mt-25{
+	margin-top: 25px;
+}
+.container{
+    @media(min-width:1200px){
+        max-width: 1170px;
+    }
+}
+@media(min-width: 1620px){
+	.box_1620{
+		max-width: 1620px;
+		margin: auto;
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+
+/* Main Title Area css
+============================================================================================ */
+.main_title{
+	text-align: center;
+	max-width: 670px;
+	margin: 0px auto 75px;
+	h2{
+		font-family: $hee;
+		font-size: 36px;
+		color: $dip;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+	}
+	p{
+		font-size: 16px;
+		font-family: $rob;
+		font-weight: normal;
+		line-height: 26px;
+		color: $pfont;
+		margin-bottom: 0px;
+	}
+}
+
+/* End Main Title Area css
+============================================================================================ */
+
+
+

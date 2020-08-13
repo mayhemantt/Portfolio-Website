@@ -1,0 +1,383 @@
+/* Welcome Area css
+============================================================================================ */
+.welcome_area{
+}
+.welcome_inner{
+	.welcome_img{
+		background: #eeeeee;
+		margin-left: 40px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+		img{
+			margin-top: -30px;
+		}
+	}
+}
+.welcome_text{
+	h4{
+		color: $dip;
+		font-family: $hee;
+		font-size: 36px;
+		margin-bottom: 18px;
+		text-transform: uppercase;
+	}
+	p{
+		max-width: 495px;
+		font-family: $rob;
+		margin-bottom: 40px;
+	}
+}
+.wel_item{
+	border: 1px solid #eeeeee;
+	padding: 20px 20px;
+	border-radius: 5px;
+	i{
+		font-size: 24px;
+		background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	h4{
+		font-size: 24px;
+		font-family: $hee;
+		font-weight: bold;
+		color: $dip;
+		margin-bottom: 5px;
+		margin-top: 10px;
+	}
+	p{
+		font-size: 16px;
+		font-family: $rob;
+		color: $pfont;
+		margin-bottom: 0px;
+	}
+}
+
+.tools_expert{
+	padding: 20px 0px 0px 0px;
+	.skill_main{
+		.skill_item{
+			margin-bottom: 18px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+			h4{
+				text-align: none;
+				font-size: 14px;
+				font-family: $rob;
+				font-weight: 500;
+				color: $dip;
+				margin-bottom: 15px;
+			}
+			.progress_br{
+				border: 1px solid #eeeeee;
+				padding: 5px;
+				border-radius: 10px;
+			}
+			.progress{
+				height: 10px;
+				border-radius: 10px;
+				background: #e8e8e8;
+				.progress-bar{
+					width: 0%;
+					transition: width .6s ease;
+					height: 10px;
+					border-radius: 5px;
+					vertical-align: middle;
+					align-self: center;
+					background-image: -moz-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+					background-image: -webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+					background-image: -ms-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+				}
+			}
+		}
+	}
+}
+
+/* End Welcome Area css
+============================================================================================ */
+
+/* My Tabs Area css
+============================================================================================ */
+.mytabs_area{
+	background-image: -moz-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+}
+.tabs_inner{
+	.nav.nav-tabs{
+		display: block;
+		text-align: center;
+		border: none;
+		margin-bottom: 120px;
+		li{
+			display: inline-block;
+			margin-right: 8px;
+			a{
+				margin: 0px;
+				line-height: 50px;
+				border-radius: 5px;
+				padding: 0px 40px;
+				font-size: 13px;
+				font-weight: 500;
+				color: #fff;
+				font-family: $rob;
+				border: 1px solid #9ab5f5;
+				background: rgba(255, 255, 255, .1);
+				&.active{
+					background: #fff;
+					color: $dip;
+				}
+			}
+		}
+	}
+	.tab-content{
+		.tab-pane{
+			.list{
+				max-width: 460px;
+				margin: auto;
+				position: relative;
+				padding-top: 40px;
+				padding-bottom: 60px;
+				&:before{
+					content: "";
+					height: 100%;
+					width: 5px;
+					background: rgba(255, 255, 255, .20);
+					position: absolute;
+					left: 46%;
+					transform: translateX(-50%);
+					top: -5px;
+				}
+				li{
+					margin-bottom: 60px;
+					position: relative;
+					span{
+						height: 15px;
+						width: 15px;
+						border-radius: 50%;
+						display: block;
+						background: rgba(255, 255, 255, .2);
+						position: absolute;
+						left: 46%;
+						top: 30px;
+						transform: translateX(-50%);
+						&:before{
+							content: '';
+							height: 7px;
+							width: 7px;
+							background: #fff;
+							border-radius: 50%;
+							position: absolute;
+							left: 52%;
+							top: 4px;
+							transform: translateX(-50%);
+						}
+					}
+					&:last-child{
+						margin-bottom: 0px;
+					}
+					.media{
+						.d-flex{
+							padding-right: 100px;
+							p{
+								color: rgba(255, 255, 255, .75);
+								margin-bottom: 0px;
+								padding-top: 20px;
+							}
+						}
+						.media-body{
+							h4{
+								color: #fff;
+								font-size: 21px;
+								text-transform: uppercase;
+								margin-bottom: 20px;
+							}
+							p{
+								color: rgba(255, 255, 255, .75);
+								margin-bottom: 0px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* End My Tabs Area css
+============================================================================================ */
+
+/* Feature Area css
+============================================================================================ */
+.feature_area{
+	background: #f9f9ff;
+	&.feature_tow{
+		background: #fff;
+		.feature_item{
+			background: #f9f9ff;
+			&:hover{
+				background: #fff;
+			}
+		}
+	}
+	&.white_feature{
+		background: #fff;
+		.feature_item{
+			background: #f9f9ff;
+			&:hover{
+				background: #fff;
+			}
+		}
+	}
+}
+.feature_inner{
+	margin-bottom: -30px;
+}
+.feature_item{
+	padding: 50px 35px;
+	border-radius: 10px;
+	@include transition;
+	background: #fff;
+	margin-bottom: 30px;
+	i{
+		margin-bottom: 35px;
+		display: block;
+		&:before{
+			margin-left: 0px;
+			font-size: 60px;
+			color: #e1e1e1;
+			line-height: 60px;
+		}
+	}
+	h4{
+		color: $dip;
+		font-size: 21px;
+		font-family: $hee;
+		font-weight: bold;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+	}
+	p{
+		margin-bottom: 0px;
+	}
+	.main_btn{
+		padding: 0px 30px;
+		line-height: 38px;
+	}
+	&:hover{
+		box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+		border-color: #fff;
+		background: #fff;
+		i{
+			&:before{
+				background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+	}
+}
+/* End Feature Area css
+============================================================================================ */
+
+/* Personal Profile Area css
+============================================================================================ */
+.profile_area{
+	.col-lg-7{
+		vertical-align: middle;
+		align-self: center;
+	}
+	
+}
+.profile_inner{
+	border-bottom: 1px solid #eeeeee;
+	.personal_text{
+		padding-left: 95px;
+	}
+}
+
+.personal_text{
+	h6{
+		font-size: 14px;
+		font-family: $rob;
+		text-transform: uppercase;
+		letter-spacing: 2.1px;
+		font-weight: normal;
+		margin-bottom: 12px;
+		color: $dip;
+	}
+	h4{
+		font-size: 16px;
+		font-weight: 500;
+		font-family: $rob;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+		color: $dip;
+	}
+	h3{
+		font-size: 48px;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		color: $dip;
+	}
+	p{
+		font-family: $rob;
+		max-width: 540px;
+		color: $pfont;
+		margin-bottom: 40px;
+	}
+	.basic_info{
+		li{
+			margin-bottom: 15px;
+			a{
+				position: relative;
+				padding-left: 40px;
+				font-size: 16px;
+				color: $pfont;
+				i{
+					position: absolute;
+					left: 0px;
+					top: 50%;
+					transform: translateY(-50%);
+					font-size: 20px;
+					color: $baseColor;
+				}
+			}
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+	.personal_social{
+		margin-top: 45px;
+		li{
+			display: inline-block;
+			margin-right: 7px;
+			&:last-child{
+				margin-right: 0px;
+			}
+			a{
+				line-height: 40px;
+				width: 40px;
+				background: #e8e8e8;
+				border-radius: 5px;
+				display: inline-block;
+				text-align: center;
+				color: #fff;
+				font-size: 16px;
+			}
+			&:hover{
+				a{
+					background-image: -moz-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+					background-image: -webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+					background-image: -ms-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+				}
+			}
+		}
+	}
+}
+
+
+/* End Personal Profile Area css
+============================================================================================ */
