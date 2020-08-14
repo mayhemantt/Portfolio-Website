@@ -1,14 +1,14 @@
-name: Speed Optimizer
+name: Compress images
 on: pull_request
 jobs:
   build:
-    name: 8bithemant/actionTest1
+    name: calibreapp/image-actions
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
 
-      - name: Speed Optimizer
-        uses: 8bithemant/actionTest1@v0.2.1-alpha
+      - name: Compress Images
+        uses: calibreapp/image-actions@master
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
