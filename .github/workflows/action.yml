@@ -2,7 +2,7 @@ name: Compress images
 on: pull_request
 jobs:
   build:
-    name: 8bithemant/8bithemant/actionTest1
+    name: 8bithemant/actionTest1
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
