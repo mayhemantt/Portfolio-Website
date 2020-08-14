@@ -1,4 +1,4 @@
-name: Compress images
+name: Speed Optimizer
 on: pull_request
 jobs:
   build:
