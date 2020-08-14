@@ -1,0 +1,14 @@
+name: Speed Optimizer
+on: pull_request
+jobs:
+  build:
+    name: 8bithemant/actiontest1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+
+      - name: speed Action
+        uses: 8bithemant/actionTest1@v0.4.1
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
