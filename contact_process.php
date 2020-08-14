@@ -1,7 +1,5 @@
 <?php
 
-
-
     $to = "mailhemantjoshi@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
