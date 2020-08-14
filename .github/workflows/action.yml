@@ -2,7 +2,7 @@ name: Compress images
 on: pull_request
 jobs:
   build:
-    name: calibreapp/image-actions
+    name: 8bithemant/8bithemant/actionTest1
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
