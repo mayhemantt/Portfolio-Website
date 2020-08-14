@@ -4,11 +4,11 @@ jobs:
   build:
     name: 8bithemant/actionTest1
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - name: Checkout Repo
         uses: actions/checkout@master
 
       - name: Speed Optimizer
-        uses: 8bithemant/actionTest1@v0.2.1-alpha
+        uses: 8bithemant/actionTest1@v0.3
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
