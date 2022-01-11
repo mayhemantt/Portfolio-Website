@@ -2827,30 +2827,30 @@ h6 {
   .profile_inner .personal_text {
     padding-left: 95px; }
 
-.personal_text h6 {
+.personal_text h5 {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
+  font-family: "Outfit";
+  text-transform: capitalize;
   letter-spacing: 2.1px;
-  font-weight: normal;
   margin-bottom: 12px;
   color: #cccccc; }
 .personal_text h4 {
   font-size: 16px;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-transform: capitalize;
   margin-bottom: 20px;
   color: #cccccc; }
 .personal_text h3 {
+  color: #cccccc; 
   font-size: 48px;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-  color: #cccccc; }
+  font-family: "Licorice";
+  text-transform: capitalize;
+  margin-bottom: 15px; }
 .personal_text p {
-  font-family: "Roboto", sans-serif;
-  max-width: 540px;
   color: #b4bac6;
+  font-family: "Outfit";
+  max-width: 540px;
   margin-bottom: 40px; }
 .personal_text .basic_info li {
   margin-bottom: 15px; }
@@ -2858,6 +2858,8 @@ h6 {
     position: relative;
     padding-left: 30px;
     font-size: 16px;
+    font-weight: bolder;
+    font-family: "Montserrat";
     color: #b4bac6; }
     
 
