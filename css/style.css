@@ -108,11 +108,11 @@ button:focus {
     margin-bottom: 15px;
     text-transform: uppercase; }
     .main_title h1 {
-      font-family: "Heebo", sans-serif;
-      font-size: 36px;
+      font-family: "Outfit";
+      font-size: 44px;
       color: hsl(0, 21%, 91%);
       margin-bottom: 15px;
-      text-transform: uppercase; }
+      text-transform: capitalize; }
   .main_title p {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
@@ -2545,38 +2545,34 @@ h6 {
     margin-top: -30px; }
 
 .welcome_text h4 {
-  
   color: #cac4c4;
-  font-family: "Heebo", sans-serif;
+  font-family: "Outfit";
   font-size: 36px;
   margin-bottom: 18px;
-  text-transform: uppercase;
+  text-transform: capitalize;
  }
 .welcome_text p {
   color: #a0a9ad;
   font-size: 16px;
   max-width: 495px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 40px; }
-
-
-
-  .wel_item:hover {
-    text-align: center;
-    border: 1px  solid  #86e7ff;
-    padding: 20px 20px;
-    border-radius: 14px;
-    background-color: #222222; 
-    box-shadow: 1.5px 1.5px 0px 0px #2c2b2b;
-  }
 
 .wel_item {
   text-align: center;
   border: 1px ;
   min-height: 100%;
+  margin-top: 15px;
   padding: 20px 20px;
-  border-radius: 5px;
-   }
+  border-radius: 5px; }
+.wel_item:hover {
+  text-align: center;
+  border: 1px  solid  #86e7ff;
+  padding: 20px 20px;
+  border-radius: 14px;
+  background-color: #222222; 
+  box-shadow: 1.5px 1.5px 0px 0px #2c2b2b; }
+
 
 
   .wel_item i {
@@ -2600,7 +2596,7 @@ h6 {
     margin-top: 10px; }
   .wel_item p {
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Outfit", sans-serif;
     color: #c7c7c7;
     margin-bottom: 0px; }
 
@@ -2622,8 +2618,8 @@ h6 {
 
     .tools_expert .skill_main .skill_item h4 {
       text-align: none;
-      font-size: 14px;
-      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-family: "Outfit", sans-serif;
       font-weight: 500;
       color: #cad4cb;
       margin-bottom: 7px; }
@@ -2663,9 +2659,9 @@ h6 {
       border-radius: 5px;
       padding: 0px 40px;
       font-size: 13px;
-      font-weight: 500;
+      font-weight: bold;
       color: #fff;
-      font-family: "Roboto", sans-serif;
+      font-family: "Montserrat", sans-serif;
       border: 1px solid #9ab5f5;
       background: rgba(255, 255, 255, 0.1); }
       
@@ -2726,8 +2722,8 @@ h6 {
         padding-top: 20px; }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
       color: #fff;
-      font-size: 21px;
-      text-transform: uppercase;
+      font-size: 25px;
+      text-transform: capitalize;
       margin-bottom: 20px; }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
       color: rgba(255, 255, 255, 0.75);
@@ -2827,30 +2823,30 @@ h6 {
   .profile_inner .personal_text {
     padding-left: 95px; }
 
-.personal_text h6 {
+.personal_text h5 {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
+  font-family: "Outfit";
+  text-transform: capitalize;
   letter-spacing: 2.1px;
-  font-weight: normal;
   margin-bottom: 12px;
   color: #cccccc; }
 .personal_text h4 {
   font-size: 16px;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-transform: capitalize;
   margin-bottom: 20px;
   color: #cccccc; }
 .personal_text h3 {
+  color: #cccccc; 
   font-size: 48px;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-  color: #cccccc; }
+  font-family: "Licorice";
+  text-transform: capitalize;
+  margin-bottom: 15px; }
 .personal_text p {
-  font-family: "Roboto", sans-serif;
-  max-width: 540px;
   color: #b4bac6;
+  font-family: "Outfit";
+  max-width: 540px;
   margin-bottom: 40px; }
 .personal_text .basic_info li {
   margin-bottom: 15px; }
@@ -2858,6 +2854,8 @@ h6 {
     position: relative;
     padding-left: 30px;
     font-size: 16px;
+    font-weight: bolder;
+    font-family: "Montserrat";
     color: #b4bac6; }
     
 
@@ -3089,19 +3087,26 @@ border-radius: 5px;
   background: #222222;
   padding: 40px 28px; }
   .testi_item p {
-    color:#a1a1a1;
+    color:#c7c7c7;
+    text-align: center;
     font-style: italic; }
 
     .testi_item h3 {
-      color: #c3c3c3;
-      font-size: 22px;
-      text-transform: uppercase;
+    color: #edf0f1;
+    font-size: 30px;
+    font-family: "Outfit";
+    text-align: center;
+    text-transform: capitalize;
     margin-bottom: 20px; }
 
   .testi_item h4 {
     color: #c3c3c3;
     font-size: 18px;
-    text-transform: uppercase; }
+    font-weight: lighter;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: lowercase;
+    margin: -5px 0 10px 0; }
   .testi_item a {
     color: #ffbf00; }
 
